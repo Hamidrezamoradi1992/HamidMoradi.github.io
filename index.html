@@ -1,12 +1,77 @@
 <!doctype html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="utf-8">
+  <title>رزومه حمیدرضا مرادی فسخودی | Hamidreza Moradi Faskhodi CV</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>رزومه — نام شما</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function switchLang(lang) {
+      document.body.setAttribute("data-lang", lang);
+      document.documentElement.lang = lang === "fa" ? "fa" : "en";
+      document.documentElement.dir = lang === "fa" ? "rtl" : "ltr";
+    }
+  </script>
 </head>
-<body>
-  <h1>سلام — این رزومهٔ من است</h1>
-  <p>به جای این متن می‌تونی رزومهٔ خودت رو بذاری.</p>
+<body data-lang="fa">
+  <header>
+    <h1 class="fa">حمیدرضا مرادی فسخودی</h1>
+    <h1 class="en">Hamidreza Moradi Faskhodi</h1>
+    <p class="fa">توسعه‌دهنده بک‌اند (Python & Django)</p>
+    <p class="en">Backend Developer (Python & Django)</p>
+    <div class="lang-switch">
+      <button onclick="switchLang('fa')">فارسی</button>
+      <button onclick="switchLang('en')">English</button>
+    </div>
+  </header>
+
+  <section>
+    <h2 class="fa">تجربه کاری</h2>
+    <h2 class="en">Experience</h2>
+    <ul>
+      <li class="fa"><b>SATPLAT</b> — توسعه‌دهنده پایتون (از ۲۰۲۵)</li>
+      <li class="en"><b>SATPLAT</b> — Python Developer (2025 - Present)</li>
+      <li class="fa"><b>Maktab Sharif</b> — منتور (از ۲۰۲۵)</li>
+      <li class="en"><b>Maktab Sharif</b> — Mentor (2025 - Present)</li>
+      <li class="fa"><b>Arkaro Holdings</b> — توسعه‌دهنده پایتون (۲۰۲۴ - ۲۰۲۵)</li>
+      <li class="en"><b>Arkaro Holdings</b> — Python Developer (2024 - 2025)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="fa">تحصیلات</h2>
+    <h2 class="en">Education</h2>
+    <ul>
+      <li class="fa">🎓 کارشناسی برق - کنترل، دانشگاه البرز (۲۰۱۲ - ۲۰۱۴)</li>
+      <li class="en">🎓 B.Sc. Electrical Engineering - Control, Alborz University (2012 - 2014)</li>
+      <li class="fa">🎓 کاردانی برق - کنترل، نیرو محرکه قزوین (۲۰۰۹ - ۲۰۱۲)</li>
+      <li class="en">🎓 Associate, Electrical Engineering - Control, Niro Mohareke Qazvin (2009 - 2012)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="fa">مهارت‌ها</h2>
+    <h2 class="en">Skills</h2>
+    <p class="fa">Python, Django, Django REST, FastAPI, PostgreSQL, Docker, Redis, Celery, MongoDB, Linux, CI/CD, HTML/CSS, JavaScript</p>
+    <p class="en">Python, Django, Django REST, FastAPI, PostgreSQL, Docker, Redis, Celery, MongoDB, Linux, CI/CD, HTML/CSS, JavaScript</p>
+  </section>
+
+  <section>
+    <h2 class="fa">پروژه‌ها</h2>
+    <h2 class="en">Projects</h2>
+    <ul>
+      <li class="fa">☕ فروشگاه آنلاین قهوه (۲۰۲۴)</li>
+      <li class="en">☕ Online Coffee Shop (2024)</li>
+      <li class="fa">💊 مدیریت داروخانه CLI (۲۰۲۴)</li>
+      <li class="en">💊 Pharmacy Management CLI (2024)</li>
+      <li class="fa">🤖 چت‌بات LLM (۲۰۲۴)</li>
+      <li class="en">🤖 Chat Bot LLM (2024)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p class="fa">© ۲۰۲۵ حمیدرضا مرادی — ساخته شده با ❤️ و Python</p>
+    <p class="en">© 2025 Hamidreza Moradi — Built with ❤️ and Python</p>
+  </footer>
 </body>
 </html>
